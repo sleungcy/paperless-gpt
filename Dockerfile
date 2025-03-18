@@ -101,3 +101,7 @@ EXPOSE 8080
 
 # Command to run the binary
 CMD ["/app/paperless-gpt"]
+
+LABEL org.opencontainers.image.source="https://github.com/sleungcy/paperless-gpt"
+LABEL org.opencontainers.image.description="paperless-gpt is a web application that uses OCR to extract text from images and then uses GPT-3 to summarize the text."
+LABEL org.opencontainers.image.licenses="MIT"
